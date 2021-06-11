@@ -1,5 +1,6 @@
 {
   "name": "berlin-industrial-exposition-1896-react-geo",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
