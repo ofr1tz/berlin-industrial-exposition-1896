@@ -11,6 +11,12 @@
 # production
 /build
 
+# R project
+.Rproj.user
+.RData
+.Rhistory
+*.Rproj
+
 # misc
 .DS_Store
 .env.local
