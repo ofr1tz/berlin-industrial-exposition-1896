@@ -15,7 +15,7 @@ import './react-geo.css'
 
 import { Titlebar, MapComponent, LayerTransparencySlider, LayerSwitcher } from '@terrestris/react-geo'
 
-const accessToken = 'pk.eyJ1Ijoib2ZyMXR6IiwiYSI6ImNrOWEzajVzMzAzc24za284bnJlcjFjMWcifQ.8uvO3K-B9OkIZ55vfmCO4w'
+const accessToken = 'pk.eyJ1Ijoib2ZyMXR6IiwiYSI6ImNrOWEyZWFydDAwMGczbHF1dHZnNDR5ZW0ifQ.YAlZi0wm2mKT48ErauyUSg'
 
 const baseMaps = [
   new OlLayerTile({
@@ -39,7 +39,8 @@ const baseMapGroup = new OlLayerGroup({
 
 const expoMap = new OlLayerTile({
   name: 'Expo Map',
-  opacity: 0.67,
+  opacity: 0.75,
+  extent: [1497232.610302, 6886891.611924, 1501506.210858, 6890908.607007],
   source: new OlSourceXYZ({ 
     url: process.env.PUBLIC_URL + '/xyz/{z}/{x}/{y}.png',
     attributions: 
